@@ -1,0 +1,95 @@
+Links:
+======
+
+1. Whitelist IP Address Code:
+	https://github.com/srcecde/aws-tutorial-code/blob/master/lambda/lambda_ip_val_func_url.py
+	
+
+
+
+Cloud Computing:
+================
+
+
+=====================================================================================================================================================
+
+Amazon Cloudfront:
+===================
+
+1. Cloudfront project:
+----------------------
+> launch instance 
+> install docker from documentation
+> $ docker container run -itd -p 80:3000 <image-name>
+> copy ip and paste it in browser
+
+
+Amazon VPC:
+==========
+
+14. Site to Site VPN:
+	a. aws vpc --> attached virtual gateway
+	b. on-premise vpc --> 
+
+	on-premise vpc:
+		route-table --> added aws vpc instance CIDR network with target ec2-instance network interface
+		instance-sg --> all tcp --> aws vpc CIDR network
+		
+	# wget http://<instance_ip>:8000
+
+	# python3 -m http.server
+	
+
+AWS Lambda:
+===========
+
+8. Extract Text from image using Amazon Textract:
+	- 
+		> 
+
+
+
+
+
+		
+		
+==========================================================================================================================================================
+
+RDS -> Relational Database Service
+===================================
+
+- Fully Managed
+- os updates
+- mysql, oracle db, postgresql, mongodb, aurora
+
+Amazon Aurora
+- 5 times more performance than mysql
+- cost effective
+
+
+Q) Default port mysql listens on?
+ANS: 3306
+
+Install mysql / workbench on ec2
+
+mysql -h <database name> -u <user name> -p <password>
+
+# yum install -y mysql
+# mysql -h <dns of database> -u <admin > -p <password>
+
+
+
+
+DNS - Route 53
+==============
+
+1. buy the domain
+2. create ec2 instances => deploy website
+3. create load balancer
+4. auto scaling
+5. define inbound and outbound rules
+
+load balancer --> default name --> examplesite.com
+
+
+Route 53 --> Hosted Zones
